@@ -11,6 +11,49 @@
 }
 
 /* ====================DESKTOP STYLE==================== */
+.cardContainer{
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.rowOne{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.imgContainer{
+    width: 50%;
+    height: 50%;
+}
+.textContainer{
+    text-align: center;
+    position: relative;
+}
+.textContainer small{
+    cursor: pointer;
+}
+.centerCard{
+    transform: scale(1.2);
+    margin: 0 30px;
+    position: relative;
+    background-color: #000;
+    color: white;
+}
+.line{
+    background-color: yellowgreen;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    
+}
 /* ====================TABLET STYLE==================== */
 
 @media screen and (max-width: 767px){

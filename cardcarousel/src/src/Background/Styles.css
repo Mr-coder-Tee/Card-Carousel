@@ -11,6 +11,42 @@
 }
 
 /* ====================DESKTOP STYLE==================== */
+.backgroudContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    background-color: aquamarine;
+}
+.backgroudCardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    border-radius: 50%;
+}
+.clickedBtn{
+    background-color: yellowgreen;
+    color: black;
+}
 /* ====================TABLET STYLE==================== */
 
 @media screen and (max-width: 767px){
