@@ -1,0 +1,21 @@
+:root{
+    /*----------color----------*/
+   --PRIMARY_COLOR:#000;
+   --SECONDARY_COLOR:#000;
+   --SURFACE_COLOR:#000;
+   --BACKGROUND_COLOR:#000;
+   --PRIMARY_COLOR_TEXT:#000;
+   --SECONDARY_COLOR_TEXT:#000;
+   --SURFACE_COLOR_TEXT:#000;
+   --BACKGROUND_COLOR_TEXT:#000;
+}
+
+/* ====================DESKTOP STYLE==================== */
+/* ====================TABLET STYLE==================== */
+
+@media screen and (max-width: 767px){
+    /* medium tablet styles */
+}
+@media screen and (max-width: 991px) {
+    /* large tablet styles */
+  }
